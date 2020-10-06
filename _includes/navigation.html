@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container">
+  <a class="navbar-brand font-weight-bold" href="/">Hanuma Teja Maddali</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse align-items-center" id="navbarText">
+    <ul class="navbar-nav ml-auto align-items-center">
+      {% for item in site.data.navigation %}
+		<li class="nav-item {{ item.name }}{% if page.url == item.link %} active {% endif %}">
+    		<div class="container">
+    		<a class="nav-link" href="{{ item.link }}">{{ item.name }}{% if page.url == item.link %} <span class="sr-only">(current)</span> {% endif %}
+    		</a>
+    		</div>
+		</li>
+		{% endfor %}
+    </ul>
+  </div>
+</div>
+</nav>
+
