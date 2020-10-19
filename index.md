@@ -2,3 +2,6 @@
 layout: default
 title: Home
 ---
+I am a Ph.D student at the University of Maryland (UMD) in the Department of Computer Science and am being advised by [Dr. Amanda Lazar](https://amandalazar.net/index.html) of The Health, Aging, and Technology Lab at UMD. My interests lie at the intersection of **HCI**, **CSCW**, **Extended Reality (XR)**, and **Accessibility**. Specifically, as part of my research, I design, build, and study XR systems for remote collaboration and remote expert guidance in hobby settings (e.g. gardening) following a user-centered approach. You can find the related, Python, Web, Unity, Swift etc. code for research-related and other projects on my [github repo](https://github.com/maddalihanumateja). Some of the repos are private, so feel free to email me (hmaddali at umd dot edu) if interested in a particular project. 
+
+Note: This website is still under construction. This is my second public facing homepage. Instead of making it completely from scratch as in my [old homepage](https://maddalihanumateja.bitbucket.io), I've chosen to use the convenience of [Jekyll](https://jekyllrb.com/). I've tried recreating the [minimal mistakes](https://github.com/mmistakes/minimal-mistakes) theme using bootstrap.

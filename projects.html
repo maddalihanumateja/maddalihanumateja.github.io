@@ -1,0 +1,56 @@
+---
+layout: default
+title: Projects
+---
+<h2>Active Projects</h2>
+<div class="card-deck">
+{% for project in site.projects %}
+  {% if project.status == "active" %}
+    <div class="card">
+      <a href="{{ project.url }}">
+      <img class="card-img-top p-4" src="{{project.img}}" alt="{{project.img_alt}}">
+  	  </a>
+      <div class="card-body">
+        <h5 class="card-title">{{project.title}}</h5>
+        <hr/>
+        Publications:
+        {% for publication in project.publications %}
+          <a href="{{publication.url}}">{{publication.name}} {{publication.year}}</a>, 
+        {% endfor %}
+        <br/>
+        Code Repos:
+        {% for repo in project.repos %}
+          <a href="{{repo}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>, 
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+<hr/>
+
+<h2>Past Projects</h2>
+<div class="card-deck">
+{% for project in site.projects %}
+  {% if project.status == "past" %}
+    <div class="card">
+      <a href="{{ project.url }}">
+      <img class="card-img-top p-4" src="{{project.img}}" alt="{{project.img_alt}}">
+  	  </a>
+      <div class="card-body">
+        <h5 class="card-title">{{project.title}}</h5>
+        <hr/>
+        Publications:
+        {% for publication in project.publications %}
+          <a href="{{publication.url}}">{{publication.name}} {{publication.year}}</a>, 
+        {% endfor %}
+        <br/>
+        Code Repos:
+        {% for repo in project.repos %}
+          <a href="{{repo}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>, 
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
