@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h3>{{page.title}}</h3>
+<img class="card-img-top p-4" src="{{page.img}}" alt="{{page.img_alt}}">
+{{ content }}
+<hr/>
+Publications:
+{% for publication in page.publications %}
+  <a href="{{publication.url}}">{{publication.name}} {{publication.year}}</a>, 
+{% endfor %}
+<br/>
+Code Repos:
+{% for repo in page.repos %}
+  <a href="{{repo}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>, 
+{% endfor %}
