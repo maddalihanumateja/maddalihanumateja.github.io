@@ -12,7 +12,8 @@ publications:
 img: /assets/images/projects/sidewalk.jpg
 img_alt: Image showing the project sidewalk interface. A 360 degree image from a certain street location on google streetview is shown to the user with buttons that can be clicked to indicate and rate relevant issues with the sidewalk in the image. This can include, for example, missing sidewalks and low quality curb ramps.
 repos: 
- - https://github.com/ProjectSidewalk/SidewalkWebpage
+ - url: https://github.com/ProjectSidewalk/SidewalkWebpage
+   name: Project Sidewalk Website (Scala Play)
 status: "past"
 ---
 Designed, and developed MTurk Experiments as part of Prof. Jon Froehlich’s <a href="https://sidewalk-sea.cs.washington.edu/">Project Sidewalk</a> team. These were for evaluating crowdworker vs volunteer performance in urban sidewalk accessibility data collection tasks.

@@ -2,6 +2,7 @@
 layout: default
 title: Projects
 ---
+Click on the projects to see more details.
 <h2>Active Projects</h2>
 <div class="card-deck">
 {% for project in site.projects %}
@@ -20,7 +21,7 @@ title: Projects
         <br/>
         Code Repos:
         {% for repo in project.repos %}
-          <a href="{{repo}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>, 
+          {{repo.name}} <a href="{{repo.url}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>,  
         {% endfor %}
       </div>
     </div>
@@ -47,7 +48,7 @@ title: Projects
         <br/>
         Code Repos:
         {% for repo in project.repos %}
-          <a href="{{repo}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>, 
+          {{repo.name}} <a href="{{repo.url}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>, 
         {% endfor %}
       </div>
     </div>
