@@ -7,10 +7,10 @@ layout: default
 <hr/>
 Publications:
 {% for publication in page.publications %}
-  <a href="{{publication.url}}">{{publication.name}} {{publication.year}}</a>, 
+  {{publication.description}} <a href="{{publication.url}}">{{publication.name}} {{publication.year}}</a>, 
 {% endfor %}
 <br/>
 Code Repos:
 {% for repo in page.repos %}
-  <a href="{{repo}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>, 
+  {{repo.name}} <a href="{{repo.url}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>, 
 {% endfor %}
