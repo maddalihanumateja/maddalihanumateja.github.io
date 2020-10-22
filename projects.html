@@ -12,6 +12,9 @@ title: Projects
   	  </a>
       <div class="card-body">
         <h5 class="card-title">{{project.title}}</h5>
+        <a href="{{ project.url }}">
+          Click here for more information.
+        </a>
         <hr/>
         Publications:
         {% for publication in project.publications %}
@@ -20,7 +23,7 @@ title: Projects
         <br/>
         Code Repos:
         {% for repo in project.repos %}
-          {{repo.name}} <a href="{{repo.url}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>,  
+          {{repo.name}} {% if repo.type == "public" %}<a href="{{repo.url}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>{% elsif repo.type == "private" %}<img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg">(private repo, <a href="mailto:hmaddali@umd.edu">email</a> to request access){% endif %}, 
         {% endfor %}
       </div>
     </div>
@@ -39,6 +42,9 @@ title: Projects
   	  </a>
       <div class="card-body">
         <h5 class="card-title">{{project.title}}</h5>
+        <a href="{{ project.url }}">
+          Click here for more information.
+        </a>
         <hr/>
         Publications:
         {% for publication in project.publications %}
@@ -47,7 +53,7 @@ title: Projects
         <br/>
         Code Repos:
         {% for repo in project.repos %}
-          {{repo.name}} <a href="{{repo.url}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>, 
+          {{repo.name}} {% if repo.type == "public" %}<a href="{{repo.url}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>{% elsif repo.type == "private" %}<img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg">(private repo, <a href="mailto:hmaddali@umd.edu">email</a> to request access){% endif %}, 
         {% endfor %}
       </div>
     </div>

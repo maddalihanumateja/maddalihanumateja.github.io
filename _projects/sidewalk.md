@@ -14,6 +14,7 @@ img_alt: Image showing the project sidewalk interface. A 360 degree image from a
 repos: 
  - url: https://github.com/ProjectSidewalk/SidewalkWebpage
    name: Project Sidewalk Website (Scala Play)
+   type: "public"
 status: "past"
 ---
 Designed, and developed MTurk Experiments as part of Prof. Jon Froehlich’s <a href="https://sidewalk-sea.cs.washington.edu/">Project Sidewalk</a> team. These were for evaluating crowdworker vs volunteer performance in urban sidewalk accessibility data collection tasks.
