@@ -5,20 +5,20 @@ layout: default
 <img class="card-img-top p-4" src="{{page.img}}" alt="{{page.img_alt}}">
 {{ content }}
 <hr/>
-Publications:
+<b>Publications</b>:
 {% for publication in page.publications %}
   {{publication.description}} <a href="{{publication.url}}">{{publication.name}} {{publication.year}}</a>, 
 {% endfor %}
 <br/>
-Code Repos:
+<b>Code Repos</b>:
 {% for repo in page.repos %}
   {{repo.name}} {% if repo.type == "public" %}<a href="{{repo.url}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>{% elsif repo.type == "private" %}<img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg">(private repo, <a href="mailto:hmaddali@umd.edu">email</a> to request access){% endif %}, 
 {% endfor %}
-{% if page.methods %}
+{% if page.tags %}
 <hr/>
-Methods Used:
-{% for method in page.methods %}
-
+<b>Tags</b>:
+{% for tag in page.tags %}
+#{{tag}},
 {% endfor%}
 <br/>
 {% endif %}

@@ -12,5 +12,13 @@ repos:
    name: Web App (Node.js + socket.io + Web Bluetooth) and Raspberry Pi code (Python)
    type: "private"
 status: "active"
+tags:
+   - Remote Research
+   - Dementia
+   - Accessibility
+   - IoT
+   - Prototyping
+   - WebRTC
+   - Zoom API
 ---
 Leading a team in the development of a system to support remote participatory design sessions specifically with people with dementia. A Zoom based video chat app interfaces with devices at the participant's location (e.g. printers, projectors) via bluetooth and a Raspberry Pi intermediary. A remote researcher can trigger these devices to create physically tangible design materials in real-time for activities with participants. 

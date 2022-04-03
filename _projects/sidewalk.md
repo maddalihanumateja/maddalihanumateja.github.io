@@ -16,5 +16,11 @@ repos:
    name: Project Sidewalk Website (Scala Play)
    type: "public"
 status: "past"
+tags:
+ - Crowdsourcing
+ - Accessibility
+ - Urban Mobility
+ - Google Streetview API
+ - Scala Play
 ---
 Designed, and developed MTurk Experiments as part of Prof. Jon Froehlich’s <a href="https://sidewalk-sea.cs.washington.edu/">Project Sidewalk</a> team. These were for evaluating crowdworker vs volunteer performance in urban sidewalk accessibility data collection tasks.
