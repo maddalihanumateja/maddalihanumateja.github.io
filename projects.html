@@ -60,11 +60,13 @@ title: Projects
           <a href="{{publication.url}}">{{publication.name}} {{publication.year}}</a>, 
         {% endfor %}
         <br/>
+        {% if project.repos %}
         <b>Code Repos</b>:
         {% for repo in project.repos %}
           {{repo.name}} {% if repo.type == "public" %}<a href="{{repo.url}}"><img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg"></a>{% elsif repo.type == "private" %}<img class="mr-2" width="24" height="24" src="\assets\images\icons\link.svg">(private repo, <a href="mailto:hmaddali@umd.edu">email</a> to request access){% endif %}, 
         {% endfor %}
         <br/>
+        {% endif %}
 
         {% if project.tags %}
         <hr/>
