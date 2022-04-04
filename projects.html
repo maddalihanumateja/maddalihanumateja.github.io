@@ -12,9 +12,6 @@ title: Projects
   	  </a>
       <div class="card-body">
         <h5 class="card-title">{{project.title}}</h5>
-        <a href="{{ project.url }}">
-          Click here for more information.
-        </a>
         <hr/>
         <b>Publications</b>:
         {% for publication in project.publications %}
@@ -31,9 +28,14 @@ title: Projects
         <hr/>
         <b>Tags</b>:
         {% for tag in project.tags %}
-        #{{tag}},
+        {{tag}},
         {% endfor%}
         {% endif %}
+
+        <hr/>
+        <a href="{{ project.url }}">
+          Click here for more information.
+        </a>
       </div>
     </div>
   {% endif %}
@@ -51,9 +53,6 @@ title: Projects
   	  </a>
       <div class="card-body">
         <h5 class="card-title">{{project.title}}</h5>
-        <a href="{{ project.url }}">
-          Click here for more information.
-        </a>
         <hr/>
         <b>Publications</b>:
         {% for publication in project.publications %}
@@ -72,10 +71,14 @@ title: Projects
         <hr/>
         <b>Tags</b>:
         {% for tag in project.tags %}
-        #{{tag}},
+        {{tag}},
         {% endfor%}
         {% endif %}
         
+        <hr/>
+        <a href="{{ project.url }}">
+          Click here for more information.
+        </a>
       </div>
     </div>
   {% endif %}
