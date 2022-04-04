@@ -16,4 +16,4 @@ tags:
  - Qualtitative Methods
  - Thematic Analysis
 ---
-Performed a secondary thematic analysis of data from interviews with people living with dementia to discuss future directions for the design of AI-driven adaptive interfaces for supporting different types of memory.
+I led a secondary thematic analysis of data from interviews with people living with dementia to discuss future directions for the design of AI-driven adaptive interfaces for supporting different types of memory.
