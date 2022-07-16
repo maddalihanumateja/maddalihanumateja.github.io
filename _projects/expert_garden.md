@@ -11,6 +11,10 @@ publications:
    publication_type: Full Paper
    description: Iterative prototyping and evaluation of XR design probes
    url: /assets/pdfs/CSCW22_website.pdf
+ - name: ASSETS
+   year: 2022 (To Appear)
+   publication_type: Poster
+   description: Secondary analysis on intergenerational accessibility in XR
 img: /assets/images/projects/XR_Learning_Concept1.png
 img_alt: Image shows an remote expert wearing a VR headset and novice wearing an AR heaset. The expert is able to see the first-person-view of the novice. The expert and novice are talking to each other about how to use a tool (pruning shears in this image).
 repos: 
