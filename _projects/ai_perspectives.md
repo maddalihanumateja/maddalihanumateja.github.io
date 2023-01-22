@@ -2,7 +2,7 @@
 title: Investigating Perspectives on the Potential of AI Powered Interfaces for People with Dementia
 publications:
  - name: CHI
-   year: 2022 (To Appear)
+   year: 2022
    publication_type: Extended Abstract
    url: /assets/pdfs/CHI22-EA-website.pdf
 img: /assets/images/projects/ai-storyboard.jpg
