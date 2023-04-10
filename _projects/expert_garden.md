@@ -18,7 +18,7 @@ publications:
    url: https://doi.org/10.1145/3517428.3550373
  - name: CHI
    year: 2023
-   publication_type: Full Paper
+   publication_type: Full Paper (Awarded Best Paper)
    description: System building and perspective analysis of authoring and sharing reconstructed spaces for XR
    url: https://doi.org/10.1145/3544548.3581243
 img: /assets/images/projects/XR_Learning_Concept1.png
@@ -41,4 +41,4 @@ tags:
    - Mixed-Methods
    - Intergenerational Design
 ---
-I've conducted participant observation (CHI'20) and user-centered design studies (CSCW '22) to understand how to design, build and evaluate systems that enhance the social and instructional experience of remote skill-sharing in expert-novice groups in skilled hobby activities (e.g. gardening, woodworking). Gardening is a useful case to explore design for collaboration in hobbies as it has widespread intergenerational appeal and is viewed as a meaningful activity for individuals, families and communities. For this project, I have built Networked Unity and AFRAME (WebXR) based design probes whose related GitHub repos can be accessed via request.
+I've conducted participant observation (CHI'20), and user-centered design studies (CSCW'22, Best paper at CHI'23) to understand how to design, build and evaluate systems that enhance the social and instructional experience of remote skill-sharing in expert-novice groups in skilled hobby activities (e.g. gardening, woodworking). Gardening is a useful case to explore design for collaboration in hobbies as it has widespread intergenerational appeal and is viewed as a meaningful activity for individuals, families and communities. For this project, I have built Networked Unity and AFRAME (WebXR) based design probes whose related GitHub repos can be accessed via request.

@@ -3,7 +3,7 @@ title: Project Sidewalk
 publications:
  - name: CHI
    year: 2019
-   publication_type: Full Paper
+   publication_type: Full Paper (Awarded Best Paper)
    url: https://doi.org/10.1145/3290605.3300292
  - name: ASSETS
    year: 2017
